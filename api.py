@@ -2,12 +2,12 @@ import pandas as pd
 from sklearn import metrics
 from flask import Flask , request
 
-# comparer test2_pred et test2 Seriousmachin chouette 
+
 
 
 app = Flask(__name__)
 @app.route('/pred', methods=['POST'])
-def hello():
+def pred():
     file_pred = request.files['file']
     df = pd.read_csv(file_pred,index_col=0)
     y_pred = df['pred'].values
