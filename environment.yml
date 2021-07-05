@@ -1,0 +1,32 @@
+name: mini_kaggle
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - certifi=2020.6.20=py36h9f0ad1d_0
+  - pip=20.1.1=py_1
+  - python=3.6.10=he025d50_1009_cpython
+  - python_abi=3.6=1_cp36m
+  - setuptools=49.2.0=py36h9f0ad1d_0
+  - vc=14.1=h869be7e_1
+  - vs2015_runtime=14.16.27012=h30e32a0_2
+  - wheel=0.34.2=py_1
+  - wincertstore=0.2=py36_1003
+  - pip:
+    - click==7.1.2
+    - flask==1.1.2
+    - itsdangerous==1.1.0
+    - jinja2==2.11.2
+    - joblib==0.16.0
+    - markupsafe==1.1.1
+    - numpy==1.19.1
+    - pandas==1.0.5
+    - python-dateutil==2.8.1
+    - pytz==2020.1
+    - scikit-learn==0.23.1
+    - scipy==1.5.2
+    - six==1.15.0
+    - threadpoolctl==2.1.0
+    - xgboost==1.1.1
+prefix: C:\ProgramData\Anaconda3\envs\mini_kaggle
+
